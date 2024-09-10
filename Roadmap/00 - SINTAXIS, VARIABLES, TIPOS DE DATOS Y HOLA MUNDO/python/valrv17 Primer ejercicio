@@ -1,0 +1,103 @@
+#Ejercicio
+#Crea un comentario en el código y coloca la URL del sitio web oficial del
+#lenguaje de programación que has seleccionado.
+
+#https://www.python.org/
+
+#Representa las diferentes sintaxis que existen de crear comentarios
+#en el lenguaje (en una línea, varias...).
+
+"""https://www.python.org/"""
+
+#Crea una variable (y una constante si el lenguaje lo soporta)
+a= 8
+VARIABLES_CONSTANTES= 1, 2, 3, 4, 6, 7, 8
+
+#Crea variables representando todos los tipos de datos primitivos
+#del lenguaje (cadenas de texto, enteros, booleanos...).
+
+my_int = 1
+my_float = 1.5
+my_bool = True
+my_bool = False
+my_string = "Mi cadena de texto"
+my_other_string = 'Mi otra cadena de texto'
+
+#Muchos valores para múltiples variables:
+x, y, z= "piña", "banano", "manzana"
+print(x)
+print(y)
+print(z)
+
+#Un valor para múltiples variables
+x = y = z= "Rosado"
+print(x)
+print(y)
+print(z)
+
+#Si tienes una colección de valores en una lista, tupla, etc.Python te permite extraer los valores en variables. Esto se llama desempaquetar.
+makeup= ["Pestañina", "Rubor", "lip gloss"]
+x, y, z= makeup
+print(x)
+print(y)
+print(z)
+
+#Las listas se utilizan para almacenar varios elementos en una sola variable.
+
+#Las cadenas en Python están rodeadas por comillas simples o comillas dobles.
+a= "Hola"
+b= 'Hola'
+
+#Valores booleanos
+#En programación, a menudo es necesario saber si una expresión es True o False.
+#Cuando comparas dos valores, se evalúa la expresión y Python devuelve la respuesta booleana.
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+#Cuando se ejecuta una condición en una declaración if, python devuelve True o False.
+a= 200
+b= 33
+if b > a:
+    print("b es mayor que a")
+else:
+    print("b no es mayor que a")
+
+#Operadores de Python:
+#Los operadores se utilizan para realizar operaciones sobre variables y valores.
+
+#Operadores aritméticos: se utilizan con valores numéricos para realizar operaciones matemáticas comúnes:
+a= 5
+b= 8
+print(a + b)
+
+#Operadores de asignación: se utilizan para asignar valores a las variables.
+x = 4
+
+x = 5
+x+= 3
+print(x)
+
+#Operadores de comparación: se utilizan para comparar dos valores.
+x= 2
+y= 2
+print(x == y)
+
+x= 20
+y= 15
+print(x > y)
+
+#Operadores lógicos: se utilizan para combinar declaraciones condicionales.
+x= 5
+print (x > 3 and x < 10)
+
+#Operadores de identidad: se utilizan para comparar los objetos, no si son iguales, sino si son realmente el mismo objeto, 
+#con la misma ubicación de memoria.
+x= ["Rubor", "Lip gloss"]
+y= ["Rubor", "Lip gloss", "Corrector"]
+z= x
+print (x is z)
+print (x is not y)
+
+#Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+print("¡Hola, Python!")
